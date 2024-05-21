@@ -2,7 +2,7 @@
 import google.generativeai as genai
 
 
-API_KEY = 'AIzaSyB-sIIO67qD0mCHTwYkGp3ehQwT7wGRHb0'
+API_KEY = 'YOUR API KEY'
 genai.configure(api_key=API_KEY)
 model= genai.GenerativeModel('gemini-pro')
 chat =model.start_chat(history=[])
